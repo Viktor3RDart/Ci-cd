@@ -12,7 +12,6 @@ services:
     ports:
       - 8080:${HTTP_PORT}
     depends_on:
-      postgres:
         condition: service_healthy
 
 
